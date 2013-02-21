@@ -72,5 +72,20 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+/* END RESET */
+
+
+body{font-family:helvetica;
+
+}
+h1{text-align:left;
+	size:20px;
+
+
+
+}
+h2{text-align:right;
+
+}
 
 
