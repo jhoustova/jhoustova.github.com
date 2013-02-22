@@ -87,5 +87,38 @@ h1{text-align:left;
 h2{text-align:right;
 
 }
+#wrapper {
+	width: 1041px;
+	margin: auto;
+}
+#header {
+	width: 1041px;
+	height: 85px;
+}
+#nav {
+	width: 1041px;
+	height: 50px;
+}
+#content {
+	width: 1041px;
+	height: 600px;
+}
+#text-left {
+	float: left;
+	width: 500px;
+	height: auto;
+}
+#text-right {
+	float: right;
+	width: 500px;
+	height: auto;
+}
+#footer {
+	width: 1041px;
+	height: 50px;
+	margin: auto;
+}
+
+	
 
 
