@@ -76,28 +76,29 @@ html[xmlns] .clearfix { display: block; }
 
 
 body{font-family:helvetica;
-
 }
+
+#nav{font-size: 30px;}
+
 h1{text-align:left;
-	size:20px;
-
-
+	font-size:30px;
 
 }
-h2{text-align:right;
+h2{text-align:left;
+	font-size:30px;
 
 }
 #wrapper {
-	width: 1041px;
+	width: 1040px;
 	margin: auto;
 }
 #header {
 	width: 1041px;
-	height: 85px;
+	height: 100px;
 }
 #nav {
 	width: 1041px;
-	height: 50px;
+	height: 155px;
 }
 #content {
 	width: 1041px;
@@ -105,7 +106,7 @@ h2{text-align:right;
 }
 #text-left {
 	float: left;
-	width: 500px;
+	width: 400px;
 	height: auto;
 }
 #text-right {
