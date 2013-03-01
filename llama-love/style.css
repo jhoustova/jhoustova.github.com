@@ -69,8 +69,10 @@ font-weight: bold;
 }
 
 #llama1{float:left;
+	width:500px;
 
 }
 #llama2{float:right;
+	width:500px;
 
 }
