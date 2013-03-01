@@ -73,12 +73,27 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 /* END RESET */
-
-
+	
 body{font-family:helvetica;
 }
 
-#nav{font-size: 30px;}
+#header {
+	width: 1041px;
+	height: 100px;
+
+}
+
+#nav{text-transform: uppercase;
+    float:left;
+    font-size: 20px;
+	font-weight: bold;
+	width:200px;
+	height:50px;
+	padding:20px;
+	
+	
+}
+
 
 h1{text-align:left;
 	font-size:30px;
@@ -88,35 +103,25 @@ h2{text-align:left;
 	font-size:30px;
 
 }
-#wrapper {
-	width: 1040px;
-	margin: auto;
-}
-#header {
-	width: 1041px;
-	height: 100px;
-}
-#nav {
-	width: 1041px;
-	height: 155px;
-}
+
 #content {
-	width: 1041px;
-	height: 600px;
+	width: 800px;
+	height: auto;
 }
 #text-left {
-	float: left;
-	width: 400px;
+	
+	width: 300px;
 	height: auto;
 }
+
 #text-right {
-	float: right;
-	width: 500px;
-	height: auto;
+	width: 600px;
+	
+	float:right;
 }
 #footer {
-	width: 1041px;
-	height: 50px;
+	width: 800px;
+	height: 600px;
 	margin: auto;
 }
 

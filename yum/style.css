@@ -55,16 +55,16 @@ table {
 body {font-family:helvetica;
 	
 }
-h1,h2,h3{font-weight: bolder;}
+h1,h2,h3,h4{font-weight: bolder;}
 
 
 #wrapper {
-	width: 900px;
+	width: 800px;
 	margin: auto;
 }
 #header {
-	width: 1041px;
-	height: 160px;
+	width: 600px;
+	height: 132px;
 }
 
 #text-left {
@@ -74,9 +74,16 @@ h1,h2,h3{font-weight: bolder;}
 }
 #text-right {
 	float: right;
-	width: 694px;
+	width: 500px;
 	height: auto;
 }
 
-
+#footer {
+	float:right;
+	width: 500px;
+	height: 500px;
+	padding:20px;
+	
+}
+ul{padding:8px;}
 
