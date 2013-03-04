@@ -55,42 +55,36 @@ table {
 
 img{width:190px;
 	height:150px;
+	float:left;
+	padding:10px;
 }
 
-
-h2{color:gray;
-	font-size:13px;
-	padding-bottom: 30px;
-
-	
-}
 
 body{font-family:helvetica;
+
 
 }
 
 h1 {font-size: 25px;
-font-weight: bold;
-}
+	font-weight: bold;
+	padding-top: 10px;
 
-
-.llama-image1{float:left;
-width:200px;
 
 }
+h2{color:gray;
+	font-size:13px;
+	padding-bottom: 15px;
+
+}
+
 
 #llama1{float:left;
-	padding-right: 100px;
-	width:300px;
-	padding-top: 50px;
-
+		width:350px;
+		padding-right: 20px;
+	
 }
 
-.llama-image2{float:right;
-width:100px;
-}
 
-#llama2{float:right;
-	width:500px;	
-	padding-right: 240px;
-}
+#llama2{float:left;
+		width:350px;	
+	}
