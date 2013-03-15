@@ -72,16 +72,31 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
+
+
+
 /* END RESET */
 	
 body{font-family:helvetica;
 }
 
-#header {
+#site-header {position:relative;
 	width: 1165px;
-	height: 95px;
+	height: 120px;
+	background-color: blue;
 	padding-bottom: 30px;
 	padding-left: 60px;
+}
+
+#site-header h1 a{
+ display:block;  
+ width:300px; 
+ height:80px;  
+ background:url(images/minivsflemish.gif) no-repeat top left; 
+ text-indent:-9999px;
+ }
+
+#nav{position:absolute;
 
 }
 
@@ -106,6 +121,7 @@ h2{text-align:left;
 	text-transform: uppercase;
 	padding-bottom: 10px;
 }
+
 
 #content {
 	width: 400px;
