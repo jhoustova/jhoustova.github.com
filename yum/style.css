@@ -62,9 +62,13 @@ h1,h2,h3,h4{font-weight: bolder;}
 	width: 800px;
 	margin: auto;
 }
-#header {
+#header {position:relative;
 	width: 600px;
 	height: 132px;
+	display:block;
+	background:url(lemoncheesecake.gif) no-repeat top left;
+	text-indent:-9999px;
+	padding-bottom: 20px;
 }
 
 #text-left {

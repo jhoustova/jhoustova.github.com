@@ -78,72 +78,67 @@ html[xmlns] .clearfix { display: block; }
 /* END RESET */
 	
 body{font-family:helvetica;
+	width:970px;
+	position:relative;
+	
 }
 
 #site-header {position:relative;
 	width: 1165px;
-	height: 120px;
-	background-color: blue;
-	padding-bottom: 30px;
-	padding-left: 60px;
+	height: 125px;
+	display:block;
+
 }
-
-#site-header h1 a{
- display:block;  
- width:300px; 
- height:80px;  
- background:url(images/minivsflemish.gif) no-repeat top left; 
- text-indent:-9999px;
- }
-
-#nav{position:absolute;
+#site-header {display:block;
+	width:1200px;
+	height:80px;
+	background:url(images/minivsflemish.gif) no-repeat top left;
+	text-indent:-9999px;
 
 }
 
-li{text-transform: uppercase;
+#main-menu{position:relative;
+	height:60px;
+	top:20px;
+	
+}
+
+#main-menu li{text-transform: uppercase;
     float:left;
     font-size: 20px;
-	font-weight: bold;
-	width:90px;
-	padding-bottom: 30px;
-	padding-left: 130px;
+    display:block;
+	font-weight: bolder;
+	width:60px;
+	padding-left: 120px;
 }
 
 
-h1{text-align:left;
-	font-size:30px;
+h1,h2{text-align:left;
+	font-size:25px;
 	text-transform: uppercase;
-	padding-top: 15px;
-}
-
-h2{text-align:left;
-	font-size:30px;
-	text-transform: uppercase;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 
-#content {
-	width: 400px;
-	height: auto;
-}
 
 #text-left {
-	padding-left: 200px;
-	width: 450px;
+	padding-left:120px;
+	width: 400px;
 	height: 30px;
-	padding-right:300px;
 }
 
 #text-right {
-	width: 450px;
+	width: 400px;
+	height:50px;
 	float:right;
-	padding-right: 180px;
+	
+
 }
 
  #footer {font-size: 15px;
 	width: 400px;
-	height: 900px;
+	height: 800px;
 	padding-top: 500px;
 	margin:auto;
 }
