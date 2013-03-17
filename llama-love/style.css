@@ -53,6 +53,11 @@ table {
 
 /* END RESET */
 
+#wrapper {
+	width: 800px;
+	margin: auto;
+}
+
 img{width:190px;
 	height:150px;
 	float:left;
@@ -61,6 +66,7 @@ img{width:190px;
 
 
 body{font-family:helvetica;
+	font-size:80%;
 
 
 }
@@ -72,8 +78,9 @@ h1 {font-size: 25px;
 
 }
 h2{color:gray;
-	font-size:13px;
+	font-size:12px;
 	padding-bottom: 15px;
+	padding-top:5px;
 
 }
 
