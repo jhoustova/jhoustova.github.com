@@ -76,22 +76,26 @@ html[xmlns] .clearfix { display: block; }
 
 
 /* END RESET */
-	
+#wrapper {width:950px;
+		margin:auto;
+}
+
 body{font-family:helvetica;
-	width:970px;
-	position:relative;
+	width:1000px;
+	
 	
 }
 
 #site-header {position:relative;
 	width: 1165px;
-	height: 125px;
+	height: 155px;
 	display:block;
 
 }
-#site-header {display:block;
+#site-header {
+	display:block;
 	width:1200px;
-	height:80px;
+	height:95px;
 	background:url(images/minivsflemish.gif) no-repeat top left;
 	text-indent:-9999px;
 
@@ -103,13 +107,13 @@ body{font-family:helvetica;
 	
 }
 
-#main-menu li{text-transform: uppercase;
+li{text-transform: uppercase;
     float:left;
     font-size: 20px;
-    display:block;
 	font-weight: bolder;
 	width:60px;
 	padding-left: 120px;
+
 }
 
 
@@ -125,7 +129,7 @@ h1,h2{text-align:left;
 #text-left {
 	padding-left:120px;
 	width: 400px;
-	height: 30px;
+	height:0px;
 }
 
 #text-right {
@@ -136,11 +140,11 @@ h1,h2{text-align:left;
 
 }
 
- #footer {font-size: 15px;
+ #footer {position:relative;
+ 	font-size: 15px;
 	width: 400px;
-	height: 800px;
 	padding-top: 500px;
-	margin:auto;
+	
 }
 
 	

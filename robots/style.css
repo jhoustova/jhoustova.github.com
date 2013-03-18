@@ -51,43 +51,147 @@ table {
 }
 
 /* start */
-#wrapper{width:1000px;
-margin:auto;
+
+a{text-decoration: none;
+color:white;
+}
+
+#top-nav a{color:#875c33;
+font-size: 80%;}
+
+body{width:100%;
+	font-family: helvetica;
+	
+}
+
+#site-wrapper{background-color: #ecf2d3;
 
 }
 
-a{text-decoration:none;
-	color:white;
+#page h1{color:#875c33;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
 
 }
 
-h1{color:#875c33;
+#page h2{color:#875c33;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;}
+
+header{position:relative;
+		background-color: #ecf2d3;
+		height:200px;
+		width:960px;
+		margin:0 auto;
+ 		
+ }
+
+#site-header h1 a {display:block;  
+		text-indent:-9999px;
+		width:306px;
+		height:123px;
+		background:url(images/logo.png) no-repeat top left;
+ }
+
+header h1{position:absolute;
+	top:50px;
+	left:50px;
 	font-size: 25px;
-}
 
-#site-header{position:relative;
-background-color: #ecf2d3;
-height:100px;
 
 }
 
-#top-nav{position:absolute; right:0px; top:0px;
+header nav{position:absolute;
+color: #875c33;
+right:0px;
+}
+
+#main-menu{background-color: #875c33;
+	position:relative;
+	height:30px;
+	width:960px;
+	margin:0 auto;
+
+}
+#menu-wrapper{background-color: #875c33;
+
+}
+
+#main-menu li{float:left;
+	width:120px;
 	background-color: #875c33;
-
-}
-
-li{float:left;
-	color:black;
-width:20px;
-
-}
-
-#sidebar{float:right;
-width:300px;
-}
-
-#page{float:left;
-	width:400px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 85%;
 
 
 }
+
+
+#page {float:left; 
+	width:45%;
+	padding-top: 60px;
+	font-size: 80%;
+	padding-right: 90px;
+
+}
+
+#sidebar {float:left; width:30%;
+	padding-top:70px;
+
+}
+#sidebar h1{text-transform: uppercase;
+color:#875c33;
+font-weight: bold;}
+
+#sidebar a{color:#875c33;
+	font-size: 70%;
+
+}
+
+#content{width:960px;
+margin:0 auto;
+}
+
+
+#site-footer{
+	clear:both;
+	background-color: red;
+	width:960px;
+	margin:0 auto;
+
+}
+
+#footer-contact{color:white;
+	padding-top:20px;
+	width:200px;
+	font-size: 80%;
+	float:left;
+
+}
+
+#footer-contact h1{float:left;
+	text-transform: uppercase;
+font-size: 17px;
+font-weight: bold;
+padding-bottom:5px;
+color:#ecf2d3;
+margin:0 auto;
+}
+#footer-wrapper{position:relative;
+	background-color: #875c33;
+	clear:both;
+	height:240px;}
+
+#footer-follow{float:right;
+		text-transform: uppercase;
+		font-size: 17px;
+		font-weight: bold;
+		padding-bottom:5px;
+color:#ecf2d3;
+}
+
+#footer-follow li {float:left;}
