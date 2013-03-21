@@ -104,7 +104,6 @@ header h1 {position:absolute;
 		left:50px;
 		font-size: 25px;
 
-
 }
 
 header nav {position:absolute;
@@ -130,8 +129,6 @@ header nav {position:absolute;
 			padding-top: 10px;
 			font-weight: bold;
 			font-size: 85%;
-
-
 }
 
 #page {float:left; 
@@ -139,11 +136,13 @@ header nav {position:absolute;
 		padding-top: 60px;
 		font-size: 80%;
 		padding-right: 90px;
+		padding-bottom: 70px;
 
 }
 
 #sidebar {float:left; width:30%;
 			padding-top:70px;
+			line-height: 140%;
 
 }
 

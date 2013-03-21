@@ -59,9 +59,10 @@ h1,h2,h3,h4{font-weight: bolder;}
 
 
 #wrapper {
-	width: 800px;
+	width: 960px;
 	margin: auto;
 }
+
 #header {
 	width: 600px;
 	height: 132px;
