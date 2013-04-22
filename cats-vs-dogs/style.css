@@ -93,11 +93,42 @@ html[xmlns] .clearfix { display: block; }
 		margin:0 auto;
 }
 
+#lops {position: relative;
+top: 10px;
+left: 10%;
+font-family: 'LeagueGothicRegular';
+font-size: 100px;
+
+}
+
+#vs{position: absolute;
+top: 40px;
+left: 35.5%;
+font-family: georgia;
+font-size: 27px;
+color: grey;
+border:black;
+font-style: italic;
+border-top: double 7px grey;
+outline: solid 3px grey;
+border-bottom: double 7px grey;
+outline: solid 3px grey;
+
+}
+
+#flemish {position: absolute;
+top: 0px;
+left: 40%;
+font-family: 'LeagueGothicRegular';
+font-size: 100px;
+padding-top: 20px;
+}
+
 body{width:1000px;	
 	
 }
 
-#site-header {position:relative;
+header {position:relative;
 	left:50px;
 	width:80%;
 	height:80%;
@@ -105,19 +136,11 @@ body{width:1000px;
 	height: 155px;
 	display:block;
 
-}
-
-#site-header {
-	display:block;
-	width:1200px;
-	height:95px;
-	background:url(images/minivsflemish.gif) no-repeat top left;
-	text-indent:-9999px;
 
 }
 
 #main-menu{
-	height:100px;
+	height:40px;
 	top:100px;
 
 	
