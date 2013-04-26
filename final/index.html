@@ -3,31 +3,30 @@
   <head>
 	<meta charset="UTF-8">
 	<title>Jarmila Houstova Portfolio</title>
+	        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="jquery.fancybox.pack.js"></script>
+
+	<script>
+         $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+        </script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
   </head>
   <body>
-<article id='about'>
+ 
+ <div class="wrapper" id="pin">
+ <article id='about'>
+ 	<img src="Images/logo.png" alt="logo">
 	<h1>About Me</h1>
-	<p>sdjfhsdjkfhsdkjfhsdfh</p>
-	<a href="mailto:jhoustova@hotmail.com">Contact Me</a>
+	<p>sdjfhsdjkfhsdkjfhsdfhfjsdhfjskfhjkshfkjshfjksdhfkjsdhfkjsdhfkjsdhfkjsdhfjksdhfkjsdhfskdjhfksjdhf</p>
+	<p><a href="mailto:jhoustova@hotmail.com">Contact Me</a></p>
 	<p>Resume</p>
 </article>
-
-<div id='middle'>
-<section id='artwork'>
-	<img src="Images/ecovativelogo.gif" alt="eco">
-	<img src="Images/LemonRecipes1.gif" alt="lemon">
-	<img src="Images/Plastic1.png" alt="plastic">
-	<img src="Images/Poster1.gif" alt="posters">
-	<img src="Images/SongPoster.gif" alt="song">
-	<img src="Images/Timetable.gif" alt="train">
-	<img src="Images/OnoPoster.gif" alt="ono">
-	<img src="Images/VirtuesBook1.gif" alt="virtues">
-</section>
-</div>
 
 <div id='right'>
 <aside id='popup'>
@@ -57,6 +56,30 @@
 	<p>Some Virtues of Design by Gui Bonsiepe paired with various artists' quotes. Book is bound by hand.</p>
 
 </aside>
+</div>
+</div>
+</div>
+
+
+	   <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
+
+ <div id="unpin">
+<section id='images'>
+	<ul>
+	<li><a href="Images/ecovativelogo.gif" class="fancybox" title="ecovativelogo">
+		<img src="Images/ecovativelogo.gif"/></a></li>
+	<li><a href="Images/LemonRecipes1.gif" alt="lemon"><img src="Images/LemonRecipes1.gif"></li>
+	<li><a href="Images/Plastic1.png"><img src="Images/Plastic1.png" alt="plastic"></li>
+	<li><a href="Images/Poster1.gif"><img src="Images/Poster1.gif" alt="posters"></li>
+	<li><a href="Images/SongPoster.gif"><img src="Images/SongPoster.gif" alt="song"></li>
+	<li><a href="Images/Timetable.gif"><img src="Images/Timetable.gif" alt="train"></li>
+	<li><a href="Images/OnoPoster.gif"><img src="Images/OnoPoster.gif" alt="ono"></li>
+	<li><a href="Images/VirtuesBook1.gif"><img src="Images/VirtuesBook1.gif" alt="virtues"></li>
+</section>
 </div>
   </body>
 </html>

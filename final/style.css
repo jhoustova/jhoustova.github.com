@@ -75,5 +75,74 @@ html[xmlns] .clearfix { display: block; }
 
 /* END RESET */
 
-img{size:30%;
+.wrapper {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 768px;
+	background-color: blue;
+}
+
+#sitewrapper {width:1380px;
+	height:768px;
+	background-color: red;
+}
+
+#about {background-color: yellow;
+width:230px;
+height:768px;
+position:absolute;
+}
+
+#about p{width:250px;}
+
+#images {background-color: black;
+width:280px;
+height:748px;
+position: absolute;
+left:230px;
+top:20px;
+
+}
+
+    #images > ul { 
+	    	list-style: none;
+	    
+	    	
+	    }
+	    #images a { 
+			text-decoration: none; 
+			display: block; 
+	
+			background: black; 
+			border-radius: 2px; 
+			color: black; 
+			text-align: center;
+			 
+			
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+	    }
+	    #images:hover a {
+			opacity: 0.2;
+	    }
+	    #images:hover ul:hover a {
+			opacity: 0.5; 
+	    }
+	    #images:hover ul:hover a:hover {
+			opacity: 1;
+	    }
+
+img {width:250px;
+
+}
+
+#about img{width:200px;}
+
+#popup {position:absolute;
+	left:550px;
+	width:500px;
+	height:700px;
+
 }
