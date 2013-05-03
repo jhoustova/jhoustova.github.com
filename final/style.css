@@ -118,7 +118,7 @@ font-family: Helvetica;
 }
 
 #right img{padding-top: 50px;
-width:750px;
+width:450px;
 }
 
 #images {
@@ -164,7 +164,7 @@ top:5px;
 
 #right {position:relative;
 	left:550px;
-	width:700px;
+	width:500px;
 	font-family: Helvetica;
 
 }
@@ -173,5 +173,7 @@ top:5px;
 
 
 img{z-index: 500;}
-#wrapper-right{height:100%;
-	overflow: auto;}
+
+#wrapper{height:100%;
+overflow: auto;
+}
