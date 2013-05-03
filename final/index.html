@@ -26,12 +26,11 @@
  <section id='about'>
  	<img src="Images/logo.png" alt="logo">
 	<h1>About Me</h1>
-	<p>sdjfhsdjkfhsdkjfhsdfhfjsdhfjskfhjkshfkjshfjksdhfkjsdhfkjsdhfkjsdhfkjsdhfjksdhfkjsdhfskdjhfksjdhf</p>
+	<p>sdjfhsdjkfhsdkjfhsdfhfjsdhfjskf hjkshfkjshfj ksdhfkjsdhfkjsdhfkjsdhfkjsdhfjk sdhfkjsdhfskdjhfksjdhf</p>
 	<a href="mailto:jhoustova@hotmail.com">Contact</a>
 	<a href="#">Resume</a>
 
 </section>
-
 <div id='right'>
 
 <div id="lemons">
@@ -45,8 +44,7 @@
 	<h2>Lemon Recipe Cards</h2>
 	<p>10 lemon themed recipe cards.</p>
 </div>
-
-<div id="plastic">
+<div id="plastic" id="show-plastic">
 	<img src="Images/Plastic1.png" alt="plastic">
 	<h2>10 Things You Should Know About Recycling Plastic</h2>
 	<p>A project based on recycling plastic, focusing on 10 different types of plastics and their affects on the environment and our health. Done with watercolors and each title is created using potato stamps.</p>
@@ -85,11 +83,10 @@
 </div>
 
 
- <div id="unpin">
-<section id='images'>
+<section id='images' id="show-images">
 	<ul>
 	<li><a href="Images/LemonRecipes1_s.gif"><img src="Images/LemonRecipes1_s.gif" alt="lemon"></a></li>
-	<li><a href="Images/plastic1_s.gif"><img src="Images/plastic1_s.gif" alt="plastic"></a></li>
+	<li><a href="#plastic"><img src="Images/plastic1_s.gif" alt="plastic"></a></li>
 	<li><a href="Images/poster3_s.gif"><img src="Images/poster3_s.gif" alt="posters"></a></li>
 	<li><a href="#song"><img src="Images/SongPoster_s.gif" alt="song"></a></li>
 	<li><a href="Images/timetable_s.gif"><img src="Images/timetable_s.gif" alt="train"></a></li>
@@ -99,5 +96,18 @@
 </ul>
 </section>
 </div>
+<script>
+$(function() {   
+   $("#show-plastic").click(function() {  
+     $("#right > div").hide();
+     $("#plastic").show();
+   });
+
+   // ... add a id of show-whatever to the rest of the <a on the left
+   // add in one of these for each
+});
+
+
+</script>
   </body>
 </html>

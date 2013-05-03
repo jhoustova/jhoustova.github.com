@@ -171,4 +171,7 @@ top:5px;
 
 #right p{width:350px;}
 
-li{width:100px;}
+
+img{z-index: 500;}
+#wrapper-right{height:100%;
+	overflow: auto;}
