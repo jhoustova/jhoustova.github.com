@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Jarmila Houstova Portfolio</title>
 	        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-        <link rel="stylesheet" href="jquery.fancybox.css" type="text/css" media="screen" />
  
 	<script src="js/jquery-1.9.1.min.js"></script>
 	<script src="js/jquery.lettering-0.6.1.min.js"></script>
@@ -31,49 +30,51 @@
 	<a href="#">Resume</a>
 
 </section>
+
 <div id="wrapper">
 <div id='right'>
 
-<div id="lemons">
+<div id="lemons" id="show-lemons">
 	<img src="Images/LemonRecipes1.gif" alt="lemon">
-<ul>
-	<li><img src="Images/LemonRecipes2.gif" alt="lemon2"></li>
-	<li><img src="Images/LemonRecipes3.gif" alt="lemon"></li>
-	<li><img src="Images/LemonRecipes4.gif" alt="lemon"></li>
-</ul>
-
 	<h2>Lemon Recipe Cards</h2>
 	<p>10 lemon themed recipe cards.</p>
 </div>
+
 <div id="plastic" id="show-plastic">
 	<img src="Images/Plastic1.png" alt="plastic">
 	<h2>10 Things You Should Know About Recycling Plastic</h2>
 	<p>A project based on recycling plastic, focusing on 10 different types of plastics and their affects on the environment and our health. Done with watercolors and each title is created using potato stamps.</p>
 </div>
+
 <div id="poster1" id="show-poster1">
 	<img src="Images/Poster3.gif" alt="posters">
 	<h2>Family Van Advertising Posters</h2>
 	<p>A series of 3 posters to promote the Family Van brand. These would be placed in kiosks by bus shelters, subways etc...</p>
 </div>
+
 <div id="song" id="show-song">
 	<img src="Images/SongPoster.gif" alt="song">
 	<h2>Pumped Up Kicks by Foster the People Song Poster</h2>
 	<p>Song poster designed in Shepard Fairey's style.</p>
 </div>
+
 <div id="timetable" id="show-timetable">
 	<img src="Images/Timetable.gif" alt="train">
 	<h2>Northeast Regional Train Timetable</h2>
 	<p>A redesigned Northeast Regional Amtrak timetable.</p>
 </div>
+
 <div id="ono" id="show-ono">
 	<img src="Images/OnoPoster.gif" alt="ono">
 	<h2>Onomatopoeia Song Poster</h2>
 	<p>Create a poster that will tell the story of a 20 sec. part of a song (Colette Show's Him le Ropes from the movie Ratatouille) in words based on the sounds.</p>
 </div>
+
 <div id="virtues" id="show-virtues">
 	<img src="Images/VirtuesBook1.gif" alt="virtues">
 	<h2>Some Virtues of Design</h2>
-	<p>Some Virtues of Design by Gui Bonsiepe paired with various artists' quotes. Book is bound by hand.</p>
+	<p>Some Virtues of Design by Gui Bonsiepe paired with various artists' quotes. Book is bound by hand.</p></div>
+
 	<div id="eco" id="show-eco">
 	<img src="Images/ecovativelogo.gif" alt="eco">
 	<h2>Ecovative Logotype</h2>
@@ -81,15 +82,13 @@
 </div>
 </div>
 </div>
-</div>
-</div>
 
 <section id='images' id="show-images">
 	<ul>
-	<li><a href="Images/LemonRecipes1_s.gif"><img src="Images/LemonRecipes1_s.gif" alt="lemon"></a></li>
-	<li><a href="#show-plastic"><img src="Images/plastic1_s.gif" alt="plastic"></a></li>
-	<li><a href="#show-poster1"><img src="Images/poster3_s.gif" alt="posters"></a></li>
-	<li><a href="#show-song"><img src="Images/SongPoster_s.gif" alt="song"></a></li>
+	<li><a href="#lemons"><img src="Images/LemonRecipes1_s.gif" alt="lemon"></a></li>
+	<li><a href="#plastic"><img src="Images/plastic1_s.gif" alt="plastic"></a></li>
+	<li><a href="#poster1"><img src="Images/poster3_s.gif" alt="posters"></a></li>
+	<li><a href="#song"><img src="Images/SongPoster_s.gif" alt="song"></a></li>
 	<li><a href="Images/timetable_s.gif"><img src="Images/timetable_s.gif" alt="train"></a></li>
 	<li><a href="Images/onoposter_s.gif"><img src="Images/onoposter_s.gif" alt="ono"></a></li>
 	<li><a href="Images/VirtuesBook1_s.gif"><img src="Images/VirtuesBook1_s.gif" alt="virtues"></a></li>
@@ -98,6 +97,11 @@
 </section>
 </div>
 <script>
+$(function() {   
+   $("#show-lemons").click(function() {  
+     $("#right > div").hide();
+     $("#lemons").show();
+   });
 $(function() {   
    $("#show-plastic").click(function() {  
      $("#right > div").hide();
@@ -116,8 +120,28 @@ $(function() {
      $("#song").show();
    });
 
+  $(function() {   
+   $("#show-timetable").click(function() {  
+     $("#right > div").hide();
+     $("#timetable").show();
+   });
 
+  $(function() {   
+   $("#show-ono").click(function() {  
+     $("#right > div").hide();
+     $("#ono").show();
+   });
 
+     $(function() {   
+   $("#show-virtues").click(function() {  
+     $("#right > div").hide();
+     $("#virtues").show();
+   });
+  $(function() {   
+   $("#show-eco").click(function() {  
+     $("#right > div").hide();
+     $("#eco").show();
+   });
 
 
 </script>

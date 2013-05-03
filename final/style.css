@@ -107,7 +107,7 @@ font-family: Helvetica;
 
 h2 {font-family: Helvetica;
 color:white;
-font-size: 20px;
+font-size: 15px;
 padding-top:20px;
 padding-bottom:4px;
 text-transform: uppercase;
@@ -177,3 +177,4 @@ img{z-index: 500;}
 #wrapper{height:100%;
 overflow: auto;
 }
+
