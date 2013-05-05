@@ -97,14 +97,22 @@ a:hover{color:gray;
 		font-family: Helvetica;
 }
 
-#about a,h1,p{width:240px;
+#about h1,p{width:240px;
 			font-size: 15px;
 			padding-left: 10px;
+			padding-top: 13px;
 }
 
 #about img{width:150px;
 			padding-top:200px;
+			padding-left: 40px;
 }
+
+#about a{padding-left: 45px;
+	font-size: 12px;
+	padding-top: 400px;
+}
+
 
 h2 {font-family: Helvetica;
 	color:white;
