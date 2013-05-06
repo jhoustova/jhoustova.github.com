@@ -131,7 +131,7 @@ p{color:gray;
 			padding-left: 40px;
 }
 
-#images {
+.images {
 width:280px;
 height:748px;
 position: absolute;
@@ -141,12 +141,12 @@ padding-left: 40px;
 
 }
 
-    #images > ul { 
+    .images > ul { 
 	    	list-style: none;
 	    
 	    	
 	    }
-	    #images a { 
+	    .images a { 
 			text-decoration: none; 
 			display: block; 
 	
@@ -161,17 +161,17 @@ padding-left: 40px;
 			-o-transition: all 0.2s ease;
 	    }
 
-	    #images:hover a {
+	    .images:hover a {
 			opacity: 0.2;
 	    }
-	    #images:hover ul:hover a {
+	    .images:hover ul:hover a {
 			opacity: 0.5; 
 	    }
-	    #images:hover ul:hover a:hover {
+	    .images:hover ul:hover a:hover {
 			opacity: 1;
 	    }
 
-#images img{padding-top: 8px;}
+.images img{padding-top: 8px;}
 
 #right {position:relative;
 	left:550px;
