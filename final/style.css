@@ -89,29 +89,36 @@ a:hover{color:gray;
 		border-radius: 0 0 10px 10px;
 }
 
-#about {width:260px;
+#about {width:250px;
 		height:768px;
 		position:absolute;
 		font-family: Helvetica;
 		padding-top: 400px;
+		padding-left: 10px;
 }
 
 #about h1,p{width:200px;
 			font-size: 13px;
 			padding-left: 10px;
-			padding-top: 13px;
+			padding-top: 5px;
 }
 
 
-#about a{padding-left: 45px;
+#about a{
 	font-size: 12px;
-	padding-top: 400px;
+	color:#00AEEF;
+	font-family: Helvetica;
+	padding-left: 10px;
+	padding-top:20px;
+
 }
 
+h1{color:#00AEEF;
+}
 
 h2 {font-family: Helvetica;
 	color:#00AEEF;
-	font-size: 15px;
+	font-size: 25px;
 	padding-top:10px;
 	text-transform: uppercase;
 }
@@ -121,9 +128,10 @@ p{color:gray;
 }
 
 #right img{padding-top: 20px;
-			width:445px;
+			width:700px;
 			padding-left: 40px;
 }
+
 
 .images {
 width:300px;
@@ -132,7 +140,6 @@ position: absolute;
 left:230px;
 top:5px;
 background-color:#00AEEF;
-opacity:0.3;
 }
 
     .images > ul { 
@@ -171,12 +178,12 @@ opacity:0.3;
 
 #right {position:relative;
 	left:550px;
-	width:500px;
+	width:700px;
 	font-family: Helvetica;
 
 }
 
-#right p,h2{width:350px;
+#right p,h2{width:300px;
 			padding-left: 40px;}
 
 
@@ -187,9 +194,10 @@ img{z-index: 500;}
 }
 
 .divider {width:800px;
-		height:30px;
+		height:40px;
 		margin-bottom: 15px;
 		margin-top: 15px;
 		background-color:#00AEEF;
 		opacity:0.3;
 }
+
