@@ -102,17 +102,17 @@ font-size: 100px;
 }
 
 #vs{position: absolute;
-top: 40px;
+top:1.8em;
 left: 35.5%;
 font-family: georgia;
-font-size: 27px;
+font-size: 25px;
 color: grey;
-border:black;
 font-style: italic;
-border-top: double 7px grey;
-outline: solid 3px grey;
-border-bottom: double 7px grey;
-outline: solid 3px grey;
+border-top: double 2px grey;
+border-bottom: double 2px grey;
+padding-bottom: 2px;
+
+
 
 }
 
@@ -174,7 +174,15 @@ top: 120px;
 left: 13%;
 }
 
-h1,h2{font-family: 'LeagueGothicRegular';
+#text-right h2{font-family: 'LeagueGothicRegular';
+	text-align:left;
+	font-size:25px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#text-left h1{font-family: 'LeagueGothicRegular';
 	text-align:left;
 	font-size:25px;
 	text-transform: uppercase;

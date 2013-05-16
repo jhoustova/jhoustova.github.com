@@ -20,6 +20,7 @@
  <div class="wrapper" id="pin">
 
  <section id='about'>
+  <img src="Images/website.jpg" alt="bg">
   <h1>ABOUT ME</h1>
 	 <p>My name is Milly Houstova and I am a student at Massachusetts College of Art and Design. I have gained skills in typography, print and interactive design. I can intergrate concept, innovation and creativity into any design project. I can also construct easy, user friendly interactive applications but I enjoy creating images through typography the most.
    </p>
@@ -46,7 +47,7 @@
 <div class="plastic" id="show-plastic">
   <h2>10 Things You Should Know About Recycling Plastic</h2>
   <p>A project based on recycling plastic, focusing on 10 different types of plastics and their affects on the environment and our health. Done with watercolors and each title is created using potato stamps.</p>
-	<img src="Images/Plastic1.png" alt="plastic">
+	<img src="Images/Plastic1.png" alt="plastic1">
   <img src="Images/Plastic2.gif" alt="plastic2">
   <img src="Images/Plastic3.png" alt="plastic3">
   <img src="Images/Plastic4.png" alt="plastic4">
@@ -59,7 +60,9 @@
 <div class="poster3" id="show-poster3">
     <h2>Family Van Advertising Posters</h2>
   <p>A series of 3 posters to promote the Family Van brand. These would be placed in kiosks by bus shelters, subways etc...</p>
-	<img src="Images/poster3.gif" alt="posters">
+	<img src="Images/poster3.gif" alt="poster3">
+  <img src="Images/poster2.gif" alt="poster2">
+  <img src="Images/poster1.gif" alt="poster1">
 </div>
 
 <div class="divider">
@@ -87,6 +90,8 @@
     <h2>Onomatopoeia Song Poster</h2>
   <p>Create a poster that will tell the story of a 20 sec. part of a song (Colette Show's Him le Ropes from the movie Ratatouille) in words based on the sounds.</p>
 	<img src="Images/OnoPoster.gif" alt="ono">
+  <iframe src="http://player.vimeo.com/video/64912276" width="500" height="367" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/64912276">Onomatopoeia Animation</a> from <a href="http://vimeo.com/user15179352">Milly</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
 </div>
 
 <div class="divider">
@@ -95,8 +100,21 @@
 <div class="virtues" id="show-virtues">
   <h2>Some Virtues of Design</h2>
   <p>Some Virtues of Design by Gui Bonsiepe paired with various artists' quotes. Book is bound by hand.</p>
-	<img src="Images/VirtuesBook1.gif" alt="virtues">
+	<img src="Images/VirtuesBook1.gif" alt="virtues1">
+  <img src="Images/VirtuesBook2.gif" alt="virtues2">
+  <img src="Images/VirtuesBook3.png" alt="virtues3">
+  <img src="Images/VirtuesBook4.png" alt="virtues4">
+  <img src="Images/VirtuesBook5.png" alt="virtues5">
+  <img src="Images/VirtuesBook6.png" alt="virtues6">
 </div>
+
+<div class="divider">
+</div>
+
+<div class="gundata" id="show-gundata">
+  <h2>Gun Homicides Animation</h2>
+  <p>The introduction to an interactive application that compares gun homicides in U.S. cities to countries around the world.</p>
+  <img src="Images/VirtuesBook1.gif" alt="virtues1">
 
 </div>
 </div>
@@ -111,6 +129,7 @@
 	<li><a href="#show-timetable"><img src="Images/timetable_s.gif" alt="train"></a></li>
 	<li><a href="#show-ono"><img src="Images/onoposter_s.gif" alt="ono"></a></li>
 	<li><a href="#show-virtues"><img src="Images/VirtuesBook1_s.gif" alt="virtues"></a></li>
+  <li><a href="#show-gundata"><img src="Images/gundata_s.gif" alt="gundata"></a></li>
 </ul>
 </section>
 </div>
@@ -164,6 +183,12 @@ $(function() {
    });
    });
 
+  $(function() {   
+   $("#show-gundata").click(function() {  
+     $("#right > div").hide();
+     $(".gundata_s").show();
+   });
+   });
 
 </script>
   </body>
