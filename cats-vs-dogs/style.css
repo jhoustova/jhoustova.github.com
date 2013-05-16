@@ -215,8 +215,12 @@ left: 13%;
 }
 
 	
-@media screen and (max-width:600px) {
-    #text-right { float:none; width:98%; margin:0 1%; padding-top: 550px; padding-left: 100px;}
-    #main-menu { float:none; width:50%; margin:0 1%; }
-    header{font-size:40%;}
+@media screen and (max-width:500px) {
+    #text-right { font-size; 15px; float:none; width:98%; margin:0 1%; padding-top: 550px; padding-left: 100px;}
+    #main-menu { float:none; width:50%; margin:0 1%; size:50%;}
+    header h1,h2,h3{size:40%;}
+    #wrapper{size:50%;
+
+    }
+    }
 
